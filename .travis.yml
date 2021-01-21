@@ -7,3 +7,5 @@ python: 3.9
 #Installing Requests and Supported Versions
 install:
   - python -m pip install requests
+script:
+  - pytest

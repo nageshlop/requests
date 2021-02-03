@@ -8,5 +8,7 @@ python:
 #Installing Requests and Supported Versions
 install:
   - python -m pip install requests
+  - pip install Pygments
+  
 script:
   - pytest

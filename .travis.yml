@@ -4,8 +4,7 @@ arch:
    - ppc64le  
 language: python
 python: 
-   - "2.7"
-   - "3.5"
+  - "3.9"
 #Installing Requests and Supported Versions
 install:
   - python -m pip install requests
